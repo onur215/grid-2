@@ -91,15 +91,40 @@ transition-timing-function: cubic-bezier(0.43,-0.88,1,2.5) ;
 }
 
 .y{
-
+ transition: all ease-in-out 1s;
 }
 
 .y:active{
-transform: translateY(25px);
+transform: translateY(-25px);
 background-color: magenta;
 }
 
+.xy{
+    transition: all 1s;
+}
+
 .xy:active{
-  transform: translate(150px, -50px);
+  transform: translate(150px, 50px);
   background-color: crimson;
+  width: 200px;
+  height: 100px;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.btn{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+    transition: all 1s;
+}
+
+.btn:active{
+    background-color: crimson;
+    color: white;
+    transform: scale(75%);
 }
