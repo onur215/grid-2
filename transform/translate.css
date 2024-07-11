@@ -3,4 +3,68 @@
 
 .yazi{
     text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50svw;
+}
+
+/* ------------------------------------------------------- */
+/*                        TRANSFORM                        */
+/* ------------------------------------------------------- */
+
+
+
+.yazi1{
+background-color: darkcyan;
+transform: rotateX(180deg);
+}
+
+.yazi2{
+background-color: fuchsia;
+transform: rotateY(180deg);
+}
+
+.yazi3{
+background-color: orange;
+/* transition: all 2s; */
+}
+
+.yazi3:active{
+    transform: rotate(-45deg);
+    background-color: red;
+    transform-origin: 40%;
+}
+
+/* ------------------------------------------------------- */
+/*                        SCALE                            */
+/* ------------------------------------------------------- */
+
+.yazi4{
+background-color: rebeccapurple;
+
+}
+
+.yazi4:active{
+transform: scaleX(3);
+}
+
+.yazi5{
+background-color: crimson;
+
+}
+
+.yazi5:active{
+    transform: scaleY(3);
+}
+
+.yazi6{
+background-color: teal;
+transform: scale(1.3);
+}
+
+img{
+    width: 250px;
+    transform: skewX(180deg);
+    transform: skewY(180deg);
+    transform: skew(30deg);
 }
