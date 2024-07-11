@@ -1,0 +1,50 @@
+
+
+
+.container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 200px 200px 150px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    align-content: center;
+    
+}
+    
+
+
+.content1{
+    grid-area: 1/1/2/5;
+    background-color: skyblue;
+}
+
+.content2{
+    grid-area: 2/1/4/2;
+    background-color: skyblue;
+}
+
+.content3{
+    grid-area: 2/2/4/3;
+    background-color: skyblue;
+}
+
+.content4{
+    grid-area: 2/3/4/4;
+    background-color: skyblue;
+}
+
+.content5{
+    grid-area: 2/4/7/5;
+    background-color: skyblue;
+}
+
+.content6{
+    grid-area: 4/1/7/4;
+    background-color: skyblue;
+}
+
+.content7{
+    grid-area: 7/1/8/5;
+    background-color: skyblue;
+}
+
